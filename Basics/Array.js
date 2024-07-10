@@ -36,3 +36,6 @@ console.log("B",myArr);
 const myn2=myArr.splice(1,3)
 console.log(myn2);
 console.log(myArr2);
+
+x=myArr.toLocaleString()
+console.log(typeof x);
