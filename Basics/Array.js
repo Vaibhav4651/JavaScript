@@ -24,3 +24,15 @@ console.log(myArr);
 //Removes the first element in the array 
 myArr2.shift()
 console.log(myArr2);
+
+//Slice splice
+console.log("a",myArr);
+
+const myn1=myArr.slice(1,3);
+console.log(myn1);
+console.log("B",myArr);
+
+//Sploce removes the existing elements in the main array
+const myn2=myArr.splice(1,3)
+console.log(myn2);
+console.log(myArr2);
