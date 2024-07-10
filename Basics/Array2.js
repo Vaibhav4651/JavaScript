@@ -9,7 +9,7 @@ console.log(marvel_heros);
 it gives the dc_heros as an the 3rd element of an array*/
 console.log(marvel_heros[3][1]);
 
-For adding both the arrays we have to concat the arrays by using the new variable
+//For adding both the arrays we have to concat the arrays by using the new variable
 const all_heros = marvel_heros.concat(dc_heros)
 console.log(all_heros);
 
