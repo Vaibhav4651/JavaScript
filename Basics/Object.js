@@ -35,7 +35,7 @@ console.log(typeof JsUser[mySym]);
 JsUser.email = "Vaibahv@gmail.com"
 
 //Here we used the freeze keyword to dont allow to make the changes in the object which we have to freeze
-//Object.freeze(JsUser)
+Object.freeze(JsUser.email())
 JsUser.email="SHreyas@gmail.com"
 console.log(JsUser);
 
