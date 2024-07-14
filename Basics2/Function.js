@@ -27,7 +27,13 @@ function addTwoNumbers(number1,number2){
 const result = addTwoNumbers(6,6)
 //console.log("Result:",result);
 
-function loginUserMesasge(){
+function loginUserMesasge(userName = "Vai"){
+//!userName is used to say no user name is defined
+    if(!userName){
+        console.log("Please enter the userName");
+        return
+    }
     return `${userName} jsut logged in`
 }
-console.log(loginUserMesasge("Vaibhav"));
+//If we dont pass any value then the username will be undefined
+console.log(loginUserMesasge("Vaibahv"));
